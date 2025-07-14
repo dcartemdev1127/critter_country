@@ -121,7 +121,7 @@ export default function Explore() {
                 {!selectedAnimal && (
                     <div className='w-full h-full flex flex-col items-center justify-between'>
                         <div className='w-full flex flex-row items-center justify-start gap-5'>
-                            <button onClick={() => router.back()} className='px-8 py-4 text-3xl font-outfit font-semibold bg-white text-pink-900 rounded-full shadow-lg cursor-pointer hover:scale-102'>Back</button>
+                            <button onClick={() => router.back()} className='px-8 py-4 text-3xl font-outfit font-semibold bg-white text-[#691b14] rounded-full shadow-lg cursor-pointer hover:scale-102'>Back</button>
                             <div className='relative'><HomeButton className='top-0 left-0' /></div>
                         </div>
                         <p className='font-semibold text-5xl'>Touch a card to learn about the animals that make up your critters.</p>

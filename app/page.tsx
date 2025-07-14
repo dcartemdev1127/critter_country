@@ -59,7 +59,7 @@ export default function Home() {
           ref={buttonRef}
           className="
             mt-20 px-8 py-4 text-2xl font-outfit font-semibold
-            bg-white text-pink-900 rounded-full shadow-lg
+            bg-white text-[#691b14] rounded-full shadow-lg
             cursor-pointer
           "
           onClick={handleClick}

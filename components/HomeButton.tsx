@@ -13,7 +13,7 @@ export default function HomeButton({ className = 'absolute top-15 left-15' }: Ho
     return (
         <button
             onClick={() => router.push('/')}
-            className={`${className} z-50 p-4 rounded-full bg-white text-pink-900 text-3xl shadow-md hover:scale-105 transition-transform cursor-pointer`}
+            className={`${className} z-50 p-4 rounded-full bg-white text-[#691b14] text-3xl shadow-md hover:scale-105 transition-transform cursor-pointer`}
             aria-label='Go to home'
         >
             <FontAwesomeIcon icon={faHouse} />
